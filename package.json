@@ -20,8 +20,8 @@
   },
   "scripts": {
     "start:dev": "NODE_ENV=development ts-node-dev --respawn --transfile-only src/main.ts",
-    "start:build": "NODE_ENV=proudction node build/index.js",
-    "start": "NODE_ENV=production ts-node src/index.ts",
+    "start:build": "NODE_ENV=proudction node build/main.js",
+    "start": "NODE_ENV=production ts-node src/main.ts",
     "build": "tsc",
     "lint": "eslint src/**/*.ts",
     "lint:fix": "eslint --fix src/**/*.ts"
